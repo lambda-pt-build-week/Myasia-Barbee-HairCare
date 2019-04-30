@@ -5,7 +5,7 @@
   <meta charset="utf-8">
 
   <title>Hair Care Project</title>
-  <link href="css/index.css" rel="stylesheet">
+  <link href="index.css" rel="stylesheet">
 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -15,22 +15,40 @@
 <body>
 
 <div class="nav">
-  <div>
-      <h1> Hair Care</h1>
-  </div>
-  <nav>
-    <a href="#"> Home </a>
-    <a href="#"> About Us </a>
-    <a href="#"> Blog </a>
-    <a href="#"> Contact </a>
-  </nav>
+    <input type="checkbox" id="nav-check">
+    <div class="nav-header">
+        <div class="nav-title">
+        Hair Care
+        </div>
+    </div>
+    <div class="nav-btn">
+        <label for="nav-check">
+        <span></span>
+        <span></span>
+        <span></span>
+        </label>
+    </div>
+    
+    <div class="nav-links">
+        <a href="//github.io/jo_geek" target="_blank">Home</a>
+        <a href="http://stackoverflow.com/users/4084003/" target="_blank">About</a>
+        <a href="https://in.linkedin.com/in/jonesvinothjoseph" target="_blank">Blog</a>
+        <a href="https://codepen.io/jo_Geek/" target="_blank">Contact</a>
+        <button><a href="https://jsfiddle.net/user/jo_Geek/" target="_blank">Get Started</a>
+    </div>
 </div>
 
 <header>
 
-  <div class="barber">
-    <img src="https://images.unsplash.com/photo-1542940763-af472da7199a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60" alt="barbershop">
-  </div>
+<div>
+<img class="hero-image" src="https://images.pexels.com/photos/1857304/pexels-photo-1857304.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="stylist">
+    <div class="hero-text">
+        <h1>Hair Care Booking </h1>
+        <p>Browse through the best stylists in your area and book with ease</p>
+            <button>Get Started</button>
+    </div>
+</div>
+
 
   <div class="welcome">
         <h2> Because It Matters</h2>
@@ -39,6 +57,7 @@
       </div>
     
 </header>
+
 <section class = "features">
 
     <div class = "feature-icon">
