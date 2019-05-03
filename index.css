@@ -261,9 +261,9 @@ html,body{
 .content{
     display:flex;
     justify-content: space-between;
-    background: silver;
     margin-top:40px;
     align-items: center;
+    background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(237,237,237,1) 100%);
     
 }
 .Gimage img{
@@ -272,17 +272,18 @@ html,body{
 }
 .Gdescription{
     max-width: 425px;
+    height:400px;
     line-height: 40px;
-    color:white;
+    color:rgb(0, 0, 0);
     font-size: 1.2rem;
- 
+    background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(237,237,237,1) 100%);
+    padding:50px;
 }
 .Gdescription h2{
     font-size: 1.45rem;
     padding:12px;
     text-align: center;
     color: #000000;
-    text-shadow: 2px 2px 8px #2f1958;
 }
 /* ---- */
 
