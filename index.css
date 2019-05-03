@@ -201,3 +201,19 @@ html,body{
     padding-bottom: 10px;
 }
 /*------------------ Text Content Section ------------*/  
+.welcome{
+    display:flex;
+    flex-direction: column;
+    text-align:center;
+    margin:80px;
+    
+}
+.welcome h2{
+    font-size: 1.5rem;
+    padding-bottom: 20px;
+}
+
+.welcome p{
+    font-size: 1.2rem;
+    line-height: 30px;
+}
