@@ -206,7 +206,7 @@ html,body{
     flex-direction: column;
     text-align:center;
     margin:80px;
-    
+
 }
 .welcome h2{
     font-size: 1.5rem;
@@ -216,4 +216,9 @@ html,body{
 .welcome p{
     font-size: 1.2rem;
     line-height: 30px;
+}
+
+.features{
+    display:flex;
+    justify-content: space-evenly;
 }
