@@ -127,12 +127,12 @@ html,body{
   justify-content: center;
   align-items: flex-start;
   align-content: flex-start;
-  height:50vw;
+  height:40vw;
   min-height:400px;
   max-height:550px;
   min-width:300px;
   color:rgb(255, 255, 255);
-  padding-top:20%;
+  padding-top:5%;
 }
 .header:after{
   content:"";
@@ -142,7 +142,7 @@ html,body{
   bottom:0;
   left:0;
   z-index:-1;
- background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(27,32,48,1) 100%);
+ background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,#99cec2 100%);
 }
 .header:before{
   content:"";
@@ -154,7 +154,7 @@ html,body{
   -webkit-backface-visibility: hidden;
   -webkit-transform: translateZ(0) scale(1.0, 1.0);
   transform: translateZ(0);
-  background:#1B2030 url(https://images.unsplash.com/photo-1503951914875-452162b0f3f1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80) top center no-repeat;
+  background:rgb(255, 255, 255);
   background-size:cover;
   background-attachment:fixed;
   animation: grow 60s  linear 10ms infinite;
@@ -195,9 +195,9 @@ html,body{
   text-align:justify
 }
 .header button{
-  color:rgb(255, 255, 255);
+  color:rgb(0, 0, 0);
   background:none; 
-  border:1px solid white;
+  border:1px solid rgb(0, 0, 0);
   font-size: 1rem;
   border-radius:3px;
   text-decoration:none;
@@ -210,15 +210,14 @@ html,body{
 
 .headpretext{
     font-size: 1rem;
-    color:rgb(255, 255, 255);
-    text-shadow: 2px 2px 8px #000000;
+    color:rgb(0, 0, 0);
     padding:15px;
 }
 
 
 .headtext{
     font-size: 1.5rem;
-    color:rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
     padding-bottom: 25px;
 }
 /*----------- About Us Tabs -------- */
@@ -230,7 +229,7 @@ html,body{
     flex-direction: row;
     width: 100%;
     height: 47px;
-    background-color: #99cec2;
+    background-color: #ffffff;
   }
   @media (min-width: 1280px) {
     .tabs {
