@@ -57,7 +57,7 @@ html,body{
   height:120%;
   font-family: 'Josefin Sans', sans-serif;
 
-/*------------------ header ------------*/  
+/*------------------ header index ------------*/  
 
 }
 .header{
@@ -73,6 +73,7 @@ html,body{
   max-height:550px;
   min-width:300px;
   color:rgb(255, 255, 255);
+  padding-top:10%;
 }
 .header:after{
   content:"";
@@ -104,40 +105,15 @@ html,body{
 .header a{
   color:rgb(255, 255, 255)
 }
-.menu{
-  display:block;
-  width:30px;
-  height:30px;
-  border:2px solid #5ab9ea;
-  border-radius:3px;
-  position:absolute;
-  right:20px;
-  top:20px;
-  text-decoration:none
-}
-.menu:after{
-  content:"";
-  display:block;
-  width:20px;
-  height:3px;
-  background:rgb(255, 255, 255);
-  position:absolute;
-  margin:0 auto;
-  top:5px;
-  left:0;
-  right:0;
-  box-shadow:0 8px, 0 16px
-}
+
 .logo{
-  border:2px solid rgb(255, 255, 255);
-  border-radius:3px;
   text-decoration:none;
-  display:inline-block;
-  margin:20px;
-  padding:5px 10px;
+  display:flex;
+  justify-content: center;
+  margin-top:60px;
   font-weight:600;
-  font-size:1.2em;
-  box-sizing:border-box
+  font-size:2rem;
+  box-sizing:border-box;
 }
 .sides, .info{
   flex: 0 0 auto;
@@ -145,12 +121,8 @@ html,body{
 }
 .info{
   width:100%;
-  padding:15% 10% 0 10%;
   text-align:center;
   text-shadow:0 2px 3px rgba(0,0,0,0.2);
-  -ms-transform: translate(0px, -75px); /* IE 9 */
-  -webkit-transform: translate(0px, -75px); /* Safari */
-  transform: translate(0px, -75px);
 }
 
 
@@ -164,16 +136,17 @@ html,body{
 }
 .header button{
   color:rgb(255, 255, 255);
-  background:#5ab9ea; 
+  background:none; 
+  border:1px solid white;
   font-size: 1rem;
-  border:none;
   border-radius:3px;
   text-decoration:none;
   display:inline-block;
-  padding:10px 20px;
+  padding:10px 40px;
   margin-bottom:40px;
-  margin-top:120px;
+  margin-top:10px;
 }
+
 
 .headpretext{
     font-size: 1rem;
