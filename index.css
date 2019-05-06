@@ -60,7 +60,7 @@ html,body{
 
 /*------------------ Nav ------------*/  
 .Navbar {
-    background-color: #5ab9ea;
+    background-color: #99cec2;
     display: flex;
     padding: 16px;
     font-family: sans-serif;
@@ -150,7 +150,7 @@ html,body{
   -webkit-backface-visibility: hidden;
   -webkit-transform: translateZ(0) scale(1.0, 1.0);
   transform: translateZ(0);
-  background:#1B2030 url(https://www.hollywoodpicture.net/wp-content/uploads/2017/08/Alicia-Keys-Curly-Hair-Photoshoot.jpg) top center no-repeat;
+  background:#1B2030 url(https://images.pexels.com/photos/458381/pexels-photo-458381.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) top center no-repeat;
   background-size:cover;
   background-attachment:fixed;
   animation: grow 60s  linear 10ms infinite;
@@ -247,7 +247,7 @@ html,body{
 .features{
     display:flex;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: flex-start;
     padding-bottom: 150px;
     
 }
@@ -261,6 +261,7 @@ html,body{
 @media (max-width: 725px){
     .features{
         flex-direction:column;
+        align-items: center;
     }
     .features .text-content p{
         text-align:center;
@@ -272,11 +273,11 @@ html,body{
     text-align:center;
     padding:20px;
     font-size: 1.6rem;
-    color: #8860d0;
+    color: #99cec2;
 }
 
 .features h2{
-    color:#5ab9ea;
+    color:black;
 }
 
 .features .text-content h2{
@@ -310,9 +311,37 @@ html,body{
     color: #000000;
 }
 
+/* ---- Blog ------*/
 
 
+.articles {
+    padding: 0;
+    margin: 0;
+    list-style: none;
 
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
+  }
+  
+  .flex-item {
+    background: tomato;
+    padding: 5px;
+    width: 200px;
+    height: 150px;
+    margin-top: 10px;
+    
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+  }
 /* ---- Subscribe ------*/
 
 
@@ -321,6 +350,8 @@ html,body{
     position: relative;
     width: 100%;
     margin-top:200px;
+    color:white;
+    text-align: center;
   }
   
   /* Make the image responsive */
@@ -331,31 +362,30 @@ html,body{
   
   /* Style the button and place it in the middle of the container/image */
   .containersub .btn {
-    position: absolute;
-    top: 55%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    background-color: rgb(0, 0, 0);
+    background-color:#5ab9ea;
     color: white;
     font-size: 16px;
     padding: 12px 24px;
     border: none;
     cursor: pointer;
-    border-radius: 5px;
+    padding:10px 40px;
+    
   }
   .containersub h2{
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    font-size:1.4rem;
-    font-weight: 600;
+    font-size:2rem;
+    font-weight: 800;
+    background:rgb(67, 54, 102);
+    padding:5px;
   }
   
   .containersub .btn:hover {
-    background-color: rgb(67, 54, 102);
+    background-color: rgb(224, 224, 224);
+  }
+
+  .notify{
+      display:flex;
+      flex-direction: column;
+      width:auto;
   }
 
   /* ---- Contact ------*/
