@@ -132,7 +132,7 @@ html,body{
   max-height:550px;
   min-width:300px;
   color:rgb(255, 255, 255);
-  padding-top:10%;
+  padding-top:20%;
 }
 .header:after{
   content:"";
@@ -173,6 +173,7 @@ html,body{
   font-weight:600;
   font-size:2rem;
   box-sizing:border-box;
+  padding-bottom: 40px;
 }
 .sides, .info{
   flex: 0 0 auto;
@@ -220,7 +221,7 @@ html,body{
     color:rgb(255, 255, 255);
     padding-bottom: 25px;
 }
-
+/*----------- About Us Tabs -------- */
 .tabs {
     border-bottom: 1px solid lightgrey;
     display: flex;
@@ -229,7 +230,7 @@ html,body{
     flex-direction: row;
     width: 100%;
     height: 47px;
-    background-color: #fff;
+    background-color: #99cec2;
   }
   @media (min-width: 1280px) {
     .tabs {
@@ -284,15 +285,16 @@ html,body{
     }
   }
   .cards-container .card {
-    border-bottom: 1px solid lightgrey;
     display: flex;
     justify-content: space-between;
     align-items: none;
     flex-direction: column;
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
     width: 380px;
     margin-bottom: 16px;
-    padding: 24px;
+    padding: 30px;
+    border-radius: 20px;
+    
   }
   .cards-container .card .headline {
     font-size: 25px;
@@ -319,3 +321,14 @@ html,body{
     letter-spacing: 1px;
     font-weight: bold;
   }
+
+  .cards-container h2{
+    font-family: Didot, serif;
+      text-align: center;
+      padding-bottom:20px;
+      font-size: 1.2rem;
+  }
+
+body{
+    background:rgb(231, 231, 231);
+}
