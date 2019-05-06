@@ -293,8 +293,7 @@ html,body{
     width: 380px;
     margin-bottom: 16px;
     padding: 30px;
-    border-radius: 20px;
-    
+    border-radius: 20px;;
   }
   .cards-container .card .headline {
     font-size: 25px;
@@ -323,12 +322,8 @@ html,body{
   }
 
   .cards-container h2{
-    font-family: Didot, serif;
+      font-family: Didot, serif;
       text-align: center;
       padding-bottom:20px;
       font-size: 1.2rem;
   }
-
-body{
-    background:rgb(231, 231, 231);
-}
