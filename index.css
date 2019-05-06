@@ -289,24 +289,19 @@ html,body{
 
 .content{
     display:flex;
-    justify-content: space-between;
+    width:100%;
     margin-top:40px;
-    align-items: center;
     background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(237,237,237,1) 100%);
     
 }
-.Gimage img{
-   max-width: 400px;
-   height: 500px;
-}
+
 .Gdescription{
-    max-width: 425px;
-    height:400px;
+   
     line-height: 40px;
     color:rgb(0, 0, 0);
     font-size: 1.2rem;
     background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(237,237,237,1) 100%);
-    padding:50px;
+    padding:10px;
 }
 .Gdescription h2{
     font-size: 1.45rem;
